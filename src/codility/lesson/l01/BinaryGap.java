@@ -1,7 +1,7 @@
 package codility.lesson.l01;
 
 /**
- * BinaryGap
+ * Iterations - BinaryGap
  *
  * @author tildev
  * @data 2020. 12. 30.
