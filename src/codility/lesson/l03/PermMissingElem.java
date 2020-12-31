@@ -3,7 +3,7 @@ package codility.lesson.l03;
 /**
  * Time Complexity - PermMissingElem
  * <p>
- * Detected time complexity:
+ * Detected time complexity: O(N) or O(N * log(N))
  *
  * @author tildev
  * @data 2020. 12. 30.
