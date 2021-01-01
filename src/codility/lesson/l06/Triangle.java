@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Sorting - Triangle
  * <p>
- * Detected time complexity:
+ * Detected time complexity: O(N*log(N))
  *
  * @author tildev
  * @data 2021. 01. 02.
