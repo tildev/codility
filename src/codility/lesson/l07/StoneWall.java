@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Stacks and Queues - StoneWall
  * <p>
- * Detected time complexity:
+ * Detected time complexity: O(N)
  *
  * @author tildev
  * @data 2021. 01. 08.
