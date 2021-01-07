@@ -12,6 +12,21 @@ import java.util.Stack;
  */
 public class Nesting {
     public int solution(String S) {
+        int cnt = 0;
+        for (char c : S.toCharArray()) {
+            if (c == '(') {
+                cnt += 1;
+            } else {
+                if (cnt == 0) {
+                    return 0;
+                }
+                cnt -= 1;
+            }
+        }
+        return cnt == 0 ? 1 : 0;
+    }
+
+    public int solution1(String S) {
         Stack<Character> stack = new Stack<>();
         for (Character c : S.toCharArray()) {
             if (c == '(') {
