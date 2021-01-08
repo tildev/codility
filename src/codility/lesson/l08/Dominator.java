@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Leader - Dominator
  * <p>
- * Detected time complexity:
+ * Detected time complexity: O(N*log(N)) or O(N)
  *
  * @author tildev
  * @data 2021. 01. 08.
