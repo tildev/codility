@@ -9,7 +9,7 @@ import java.util.Set;
  * Detected time complexity: O(N) or O(N*log(N))
  *
  * @author tildev
- * @data 2021. 01. 10.
+ * @data 2021. 01. 11.
  */
 public class AbsDistinct {
     public int solution(int[] A) {
