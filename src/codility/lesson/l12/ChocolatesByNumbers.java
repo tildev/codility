@@ -65,7 +65,6 @@ public class ChocolatesByNumbers {
 
     public static void main(String[] args) {
         int N = 10, M = 4;
-        //int N = 15_486_451;
         System.out.println(new ChocolatesByNumbers().solution(N, M));
     }
 }
