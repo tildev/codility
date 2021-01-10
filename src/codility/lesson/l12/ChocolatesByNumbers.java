@@ -6,19 +6,44 @@ import java.util.Set;
 /**
  * Euclidean algorithm - ChocolatesByNumbers
  * <p>
- * Detected time complexity:
+ * Detected time complexity: O(log(N + M))
  *
  * @author tildev
  * @data 2021. 01. 10.
  */
 public class ChocolatesByNumbers {
-    public int solution(int N, int M) {
-        
-        return 0;
+
+    /**
+     * 최대 공약수 구하기
+     * - 유클리드 호제법(Uclidean algorithm)
+     *
+     * @param x
+     * @param y
+     * @return
+     */
+    public int gcd(int x, int y) {
+        if (y == 0) return x; //y가 0이면 x값 반환
+        return gcd(y, x % y);
     }
 
     /**
-     * timeout
+     * 유클리드 호제법(Uclidean algorithm)
+     * <p>
+     * Detected time complexity: O(log(N + M))
+     *
+     * @param N
+     * @param M
+     * @return
+     */
+    public int solution(int N, int M) {
+        int gcd = gcd(N, M);
+
+        return N / gcd;
+    }
+
+    /**
+     * fail - timeout
+     * <p>
      * Detected time complexity: O(N + M)
      *
      * @param N
