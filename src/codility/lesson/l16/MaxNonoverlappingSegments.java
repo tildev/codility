@@ -3,7 +3,7 @@ package codility.lesson.l16;
 /**
  * Greedy algorithms - MaxNonoverlappingSegments
  * <p>
- * Detected time complexity:
+ * Detected time complexity: O(N)
  *
  * @author tildev
  * @data 2021. 02. 23.
